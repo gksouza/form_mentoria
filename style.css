@@ -1,0 +1,259 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/*Fonte para label = título (Nome, E-mail, etc.),
+e preenchimento interno do wrapper = retângulo para preenchimento */
+body, input {
+  font-family: 'Poppins', sans-serif;
+}
+
+/*Fundo da página inteira na cor cinza*/
+body {
+  background: #E5E5E5;
+}
+
+/*Sobreposição de retângulo
+em preto colocado a frente da página,
+e por detrás do Título e subtítulo pelo z-index. */
+body::before {
+  content: '';
+  width: 100%;
+  height: 435px;
+  
+  position: absolute;
+  top: 0;
+  left: 0;
+  z-index: -1;
+  background: #535971;
+}
+
+/*Todo o formulário com fundo branco e
+centralizado em frente a sobreposição*/
+.page {
+  width: 750px;
+  margin: auto;
+}
+
+/* Largura para o Mentoria e subtítulo (Preencha...)
+com espaçamento do topo. */
+header {
+  width: 415px;
+  margin-top: 140px;
+}
+
+/* Diagramação do título Mentoria
+conforme lay-out Figma*/
+header h1 {
+  font-family: 'Staatliches';
+  font-weight: 400;
+  font-size: 48px;
+   
+  color: #FFFFFF;
+
+  margin-bottom: 20px;
+}
+
+/* Diagramação do subtítulo (Preencha o ...)
+conforme lay-out Figma*/
+header p {
+  font-family: 'Poppins';
+  font-weight: 400;
+  font-size: 20px;
+  
+  color: #FFFFFF;
+
+  margin-bottom: 60px;
+}
+
+h4 {
+  font-family: 'Staatliches';
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 34px;
+
+color: #535971;
+}
+
+/* Diagramação do formulário conforme layout */
+form {
+  margin: 65px 0 0;
+  background: #FFFFFF;
+  border-radius: 8px 8px 0 0;
+  min-height: 300px;
+
+  padding: 65px;
+
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
+}
+
+/* Diagramação das caixas de Informações Pessoais,
+do Mentor e Seus Horários */
+fieldset {
+  border: none;
+  background: #FAFAFC;
+}
+
+/* Diagramação do fundo
+das caixas de Informações Pessoais,
+do Mentor e Seus Horários */
+.fieldset-wrapper {
+  display: flex;
+  flex-direction: column;
+
+  background: #FFFFFF;
+}
+
+/* Diagramação da linha e do legend (títulos dentro do formulário)
+Informações Pessoais, do Mentor, Seus Horários... */
+fieldset legend {
+  font-family: 'Staatliches';
+  font-weight: 400;
+  font-size: 24px;
+     
+  width: 100%;
+  
+  border-bottom: 1px solid #E6E6F0;
+  padding-bottom: 8px;
+
+  margin-bottom: 30px;
+      
+  color: #535971;
+}
+
+/* Diagramação do Nome e Sobrenome */
+.line-col-2 {
+  /*border: 2px solid  red;*/
+  display: flex;
+  gap: 20px;
+}
+
+.line-col-2 > div:nth-child(1) {
+  width: 50%;  
+}
+
+.line-col-2 > div:nth-child(2) {
+  width: 50%;  
+}
+
+.line-col-1 {
+  /*border: 2px solid  red;*/
+  display: flex;
+  flex-direction: column;
+}
+
+/* Configuração entre os campos nome, sobrenome, e-mail, senha, nome mentor, data */
+.input-wrapper {
+  /*border: 2px solid red;*/
+  display: flex;
+  flex-direction: column;
+
+  margin-bottom: 15px;
+}
+
+/* Entrelinhas (margin-bottom), corpo e cor para
+label (Nome, E-mail, etc.)
+ */
+.input-wrapper label {
+  /*border: 2px solid blue;*/
+  font-size: 14px;
+  
+  color: #4E4958;
+
+  margin-bottom: 8px;
+}
+
+/* Estilização das frases dentro de ( ) */
+.input-wrapper label span {
+  margin-left: 10px;
+  font-size: 12px;
+  color: #C1BCCC;
+}
+
+/* Estilização das frases dentro de ( ) */
+.input-wrapper label span:hover {
+  color: #6b6a70;
+}
+
+/* Configuração de todos os campos para preenchimento
+do formulário */
+.input-wrapper input {
+  background: #FAFAFC;
+
+  border: 1px solid #E6E6F0;
+  border-radius: 8px;
+
+  height: 55px;
+
+  font-size: 16px;
+  line-height: 26px;
+
+  color: #6b6a70;
+
+  padding-inline: 10px;
+}
+
+/* Configuração das colunas de datas e horas (Primeira e Segunda Mentoria) */
+.line-col-3 {
+  display: flex;  
+  gap: 10px;
+}
+
+.line-col-3 > div:nth-child(1) {
+  width: 50%;  
+}
+
+.line-col-3 > div:nth-child(2) {
+  width: 25%;  
+}
+
+.line-col-3 > div:nth-child(3) {
+  width: 25%;  
+}
+
+
+/* Configuração do retângulo do rodapé */
+footer {
+  /*border: 5px solid green;*/
+  background: #535971;
+  display: flex;
+  flex-direction: column;
+
+  padding: 50px;
+
+  height: 160px;
+  
+  border-radius: 0px 0px 20px 20px;
+}
+
+/* Configuração do botão SALVAR */
+footer .button {
+  background: #FF5374;
+
+  border: 0;
+
+  height: 55px;
+
+  border-radius: 20px;
+
+  font-family: 'Staatliches';
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 26px;
+
+  color: #FFFFFF;
+}
+
+/* Configuração da segunda cor do botão */
+footer .button:hover {
+  background: #cd2828;
+}
+
+/* Configuração de cor quando o campo estiver incorreto ou não foi preenchido */
+input:invalid {
+  border: 1px solid #ec9d9d;
+}

@@ -1,0 +1,16 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/*Fonte para label = título (Nome, E-mail, etc.),
+e preenchimento interno do wrapper = retângulo para preenchimento */
+body, input {
+  font-family: 'Poppins', sans-serif;
+}
+
+/*Fundo da página inteira na cor cinza*/
+body {
+  background: #E5E5E5;
+}
