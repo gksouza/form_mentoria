@@ -1,10 +1,12 @@
 # Formulário Mentoria
 
-Trilha Explorer 🚀
-
-![preview](./images/preview_form_mentoria.png)
+## Trilha Explorer 🚀
 
 💜 Desafio do Stage 03 - Formulário Mentoria
+
+👩🏽‍💻 Acesse o link do projeto em **About**
+
+![preview](./images/preview_form_mentoria.png)
 
 ## 🔰 Tecnologias
 
@@ -15,7 +17,7 @@ Trilha Explorer 🚀
 
 Através da aulas do Stage 03 adquiri maiores e fascinantes conhecimentos sobre o HTML e CSS.
 
-## 🤸‍♀️ Contato
+## 🤸🏽‍♂️ Contato
 
 https://www.linkedin.com/in/gkos22/
 
