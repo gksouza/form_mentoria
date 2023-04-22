@@ -15,7 +15,7 @@
 
 ## 📚 Meu aprendizado
 
-Através da aulas do Stage 03 adquiri maiores e fascinantes conhecimentos sobre o HTML e CSS.
+Projeto construído através das aulas de Mayk Brito do curso Explorer da Rocketseat, onde adquiri maiores conhecimentos sobre o HTML e CSS.
 
 ## 🤸🏽‍♂️ Contato
 
