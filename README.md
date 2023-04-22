@@ -2,7 +2,7 @@
 
 Trilha Explorer 🚀
 
-![preview](./images/preview_form_mentoria.png.png)
+![preview](./images/preview_form_mentoria.png)
 
 💜 Desafio do Stage 03 - Formulário Mentoria
 
